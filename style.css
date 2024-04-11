@@ -83,7 +83,6 @@ header > nav > ul {
 
 #hero {
   border-bottom: 4px solid black;
-  box-shadow: 3px 4px 0 0 black;
   min-height: 380px;
   display: flex;
   margin: 0;
@@ -115,4 +114,34 @@ header > nav > ul {
   background-color: var(--card-green);
 }
 
+/* description section */
 
+.bottom {
+  margin: 20px;
+  min-height: 250px;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-evenly;
+}
+
+.inner-text {
+  background-color: var(--card-pink);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  flex-shrink: 1;
+  border-radius: 5px 0px 0px 5px;
+
+}
+
+.inner-fill-right {
+  flex-basis: 100%;
+  margin:0;
+  padding: 0;
+  background-color: var(--card-peach);
+  flex-grow: 2;
+  border-radius: 0px 5px 5px 0px;
+  border-left: 4px solid black;
+}
