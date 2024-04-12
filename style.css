@@ -90,6 +90,10 @@ header > nav > ul {
   box-shadow: 3px 4px 0 0 black;
 }
 
+.btn-larger{
+  width: 100%;
+
+}
 .btn:active{
   box-shadow: inset 0px 0px 0 0 black;
   transform: translate(3px, 4px);
