@@ -238,6 +238,23 @@ footer {
 }
 
 /*  useful items */
+.banner {
+  display: flex;
+  border-bottom: 4px solid black;
+  min-height: 380px;
+  display: flex;
+  padding: 48px 20px;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.banner h1 {
+  text-align: center;
+  max-width: 80%;
+  font-size: 3em;
+  font-weight: bold;
+  color: black;
+}
 
 .text-card {
   max-width: 50%;
@@ -258,6 +275,22 @@ footer {
 
 
 /*  Small screens */
+
+@media only screen and (max-width: 1920px){
+  .text-card {
+    max-width: 80%;
+  }
+
+  .text-card-center {
+    max-width: 80%;
+  }
+
+  .text-card p {
+    font-size: 18px;
+  }
+
+}
+
 
 @media only screen and (max-width: 1080px) {
   header > nav > ul {
@@ -281,4 +314,39 @@ footer {
     font-size: 10vw;
   }
 
+  .text-card-center {
+    max-width: 80%;
+    align-items: stretch;
+  }
+
+  .banner h1 {
+    max-width: 95%;
+    font-size: 46px;
+  }
+
+  .text-card {
+    max-width: 95%;
+  }
+
+  .text-card p {
+    font-size: 1em;
+  }
+
 }
+
+@media only screen and (max-width: 380px){
+  .text-card-center {
+    max-width: 95%;
+  }
+
+  .banner {
+    padding: 20px;
+  }
+
+  .banner h1 {
+    max-width: 95%;
+    font-size: 40px;
+  }
+
+}
+
